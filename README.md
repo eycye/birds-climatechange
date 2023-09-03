@@ -6,7 +6,7 @@ In this project we model the Scottish crossbill (Loxia scotica), which is a smal
 
 1. Use `tidyverse`, `raster`, `sf`, `rgbif` (rOpenSci) packages, read data from `climate_raster.rds`
 2. Monthly average minimum temperature heatmap
-3. `occ_szearch``: species occurrence records based on taxonomic information, geographic location, date
+3. `occ_search`: species occurrence records based on taxonomic information, geographic location, date
 4. Nest data by decades
 5. Project spatial data to represent earth's 3D sphere in 2D: use Coordinate Reference System (CRS) strings. GBIF hosts data from around the world and uses a global projection (WGS84). The Met Office is a UK organization and provides data in the British National Grid projection (BNG)
 6. Generate pseudo-absences to mitigate information asymmetry presences (easier to get) and absences. Assume our species does not occur in random locations outside of its presence
